@@ -1,0 +1,68 @@
+
+    Debes tener un título de página en un elemento h1 con un id de title
+    Debes tener una pequeña explicación en un elemento p con un id de description
+    Debes tener un elemento form con un id de survey-form
+    Dentro del elemento form, debes ser obligatorio (required) ingresar tu nombre en un campo de input que tenga un id de name y un type de text
+    Dentro del elemento form debe ser obligatorio (required) ingresar tu nombre en un campo de input que tenga un id de email
+    Si introduces un correo electrónico que no tiene el formato correcto, tú debes ver una alerta de validación en THML5
+    Dentro de tu form, tu puedes introducir un número en un campo input que tenga un id de number
+    Si introduces un valor no numérico en la entrada de números, tú debes ver una alerta de validación en HTML5
+    Si introduces un número fuera del rango de la entrada de números, los cuales están definidos por los atributos min y max, debes ver una alerta de validación en HTML5
+    Para los campos de entrada de nombre, correo electrónico y número, podrás ver los correspondientes elementos label en el formulario, que describen el propósito de cada campo con los siguientes ids: id="name-label", id="email-label", y id="number-label"
+    Para los campos de entrada de nombre, correo electrónico y número, podrás ver un texto provisional que da una descripción o instrucciones para cada campo
+    Dentro del elemento de formulario, debes tener un elemento desplegable select con un id de dropdown con al menos dos opciones para elegir
+    Dentro del elemento de formulario, puedes seleccionar una opción de un grupo de al menos dos botones de radio que son agrupados utilizando el atributo name
+    Dentro del elemento de formulario, puedes seleccionar varios campos en una serie de casillas de verificación, cada una debe tener un atributo value
+    Dentro del elemento de formulario, se te presenta un textarea para comentarios adicionales
+    Dentro del elemento form, se te presenta un botón con un id de submit para enviar todas las entradas
+
+Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Que tengas una feliz programación!
+
+Nota: Asegúrate de agregar <link rel="stylesheet" href="styles.css"> en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
+
+--------------------------------
+
+Debes tener un elemento h1 con un id de title
+Waiting: Tú #title no debe estar vacío
+Waiting: Debes tener un elemento p con un id de description
+Waiting: Tú #description no debe estar vacío
+Waiting: Debe tener un elemento form con un id de survey-form
+Waiting: Debes tener un elemento input con un id de name
+Waiting: Tú #name debe tener un type de text
+Waiting: Tú #name debe requerir una entrada
+Waiting: Tú #name debe ser un descendiente de #survey-form
+Waiting: Debes tener un elemento input con un id de email
+Waiting: Tú #email debe tener un type de email
+Waiting: Tú #email debe requerir una entrada
+Waiting: Tú #email debe ser un descendiente de #survey-form
+Waiting: Debes tener un elemento input con un id de number
+Waiting: Tú #number debe ser un descendiente de #survey-form
+Waiting: Tú #number debe tener un type de number
+Waiting: Tú #number debe tener un atributo min con un valor numérico
+Waiting: Tú #number debe tener un atributo max con un valor numérico
+Waiting: Debes tener un elemento label con un id de name-label
+Waiting: Debes tener un elemento label con un id de email-label
+Waiting: Debes tener un elemento label con un id de name-label
+Waiting: Tu#name-labelno debe estar vacio
+Waiting: Tu#name-labelno debe estar vacio
+Waiting: Tu#name-labelno debe estar vacio
+Waiting: Tú #name debe ser una variante de #survey-form
+Waiting: Tú #name debe ser una variante de #survey-form
+Waiting: Tú #name debe ser una variante de #survey-form
+Waiting: Tú #email debe tener el atributo placeholder con un marcador de texto
+Waiting: Tú #email debe tener el atributo placeholder y valor
+Waiting: Tú #number debe tener el atributo placeholder y valor
+Waiting: Debes tener un campo select con un id de dropdown
+Waiting: Tú #dropdown debe tener al menos dos elementos seleccionables (no deshabilitado) option
+Waiting: Tú #dropdown debe ser un descendiente de #survey-form
+Waiting: Debes tener al menos dos elementos input con un type de radio (botones de radio)
+Waiting: Debes tener al menos dos botones de radio que sean descendientes de #survey-form
+Waiting: Todos los botones de radio deben tener un atributo value y valor
+Waiting: Todos los botones de radio deben tener un atributo name y valor
+Waiting: Cada grupo de botones de radio deben tener al menos 2 botones de radio
+Waiting: Debes tener al menos dos elementos input con un type de checkbox (casillas de verificación) que son descendientes de #survey-form
+Waiting: Todas las casillas de verificación dentro de #survey-form deben tener un atributo value y valor
+Waiting: Debes tener al menos un elemento de textarea que sea descendiente de #survey-form
+Waiting: Debes tener un elemento input o un elemento button con un id de submit
+Waiting: Tú #submit debe tener un type de submit
+Waiting: Tú #submit debe ser un descendiente de #survey-form 
