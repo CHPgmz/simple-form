@@ -2,4 +2,4 @@
 
 Design of a simple form:
 
-link demo: https://acortar.link/JPV9q2
+link demo: https://chpgmz.github.io/simple-form/
